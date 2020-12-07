@@ -13,12 +13,15 @@ namespace MedziagosKartojimas
             Name = name;
         }
 
-        public string Name { get; set; }
+        public string Name { get; }
 
-        public NameMetodas()
-        {
+        public abstract string NameMetodas();
 
-        }
+        public abstract int NameKodas(int sk);
+    
+  
     }
+
+
 
 }
