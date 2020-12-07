@@ -8,6 +8,18 @@ namespace MedziagosKartojimas
 {
     class AKlase : BaseClass
     {
+        public AKlase(string name) : base(name)
+        {
+        }
 
+        public override int NameKodas(int sk)
+        {
+            
+        }
+
+        public override string NameMetodas()
+        {
+            
+        }
     }
 }
