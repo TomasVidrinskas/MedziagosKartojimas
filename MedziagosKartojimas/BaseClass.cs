@@ -18,7 +18,7 @@ namespace MedziagosKartojimas
 
         public abstract string NameMetodas();
 
-        public abstract int NameKodas(int skaicius);
+        public abstract int NameKodas(int sk);
     
   
     }
