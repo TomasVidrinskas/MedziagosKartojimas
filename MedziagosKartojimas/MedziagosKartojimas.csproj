@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="AKlase.cs" />
     <Compile Include="BaseClass.cs" />
-    <Compile Include="IZodisKitaip.cs" />
+    <Compile Include="Interfaces\IZodisKitaip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
