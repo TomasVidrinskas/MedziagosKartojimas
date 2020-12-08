@@ -9,7 +9,7 @@ namespace MedziagosKartojimas
     public interface IZodisKitaip
     {
         string ZodisBeBalsiu(string zodis);
-        string ZodisBePriebalsiu();
+        string ZodisBePriebalsiu(string zodis);
         string ZodisPakeistomisBalsemis(char a);
         string ZodisPakeistomisPriebalsemis(int x);
 

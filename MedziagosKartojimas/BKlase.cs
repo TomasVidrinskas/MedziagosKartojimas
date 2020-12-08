@@ -55,7 +55,13 @@ namespace MedziagosKartojimas
 
         public string ZodisPakeistomisPriebalsemis(int x)
         {
-            throw new NotImplementedException();
+            StringBuilder ab = new StringBuilder();
+            List<char> balses = new List<char> { 'a', 'e', 'y', 'u', 'i', 'o' };
+            foreach (var letter in Name)
+            {
+                ab.Append(balses.Contains(letter) ? x.ToString() : letter.ToString());
+            }
+            return ab.ToString();
         }
     }
 }
