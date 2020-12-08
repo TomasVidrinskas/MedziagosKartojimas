@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MedziagosKartojimas
 {
-    class AKlase : BaseClass
+    public class AKlase : BaseClass
     {
         public AKlase(string name) : base(name)
         {
