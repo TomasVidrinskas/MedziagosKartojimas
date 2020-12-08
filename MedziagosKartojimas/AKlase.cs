@@ -17,9 +17,13 @@ namespace MedziagosKartojimas
             
         }
 
-        public string NameMetodas(string zodis)
+        public override string NameMetodas()
         {
-            
+            return BalsesIKoda(Name);
+        }
+
+        private string BalsesIKoda(string zodis)
+        {
             StringBuilder a = new StringBuilder();
             for (int i = 0; i < zodis.Length; i++)
             {
@@ -30,11 +34,6 @@ namespace MedziagosKartojimas
                 else a.Append(zodis[i]);
             }
             return a.ToString();
-        }
-
-        private string BalsesIKoda(string zodis)
-        {
-            return BalsesIKoda(Name);
         }
     }
 }
