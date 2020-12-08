@@ -14,6 +14,7 @@ namespace MedziagosKartojimas
         }
 
         public string Name { get; }
+        public int Skaicius { get; set; }
 
         public abstract string NameMetodas();
 

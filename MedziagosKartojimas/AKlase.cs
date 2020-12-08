@@ -14,7 +14,7 @@ namespace MedziagosKartojimas
 
         public override int NameKodas(int sk)
         {
-            
+            return RaideIKoda(Skaicius);
         }
 
         public override string NameMetodas()
@@ -34,6 +34,18 @@ namespace MedziagosKartojimas
                 else a.Append(zodis[i]);
             }
             return a.ToString();
+        }
+
+        private int RaideIKoda(int skaicius)
+        {
+
+            var zodis = Name;
+            int suma = 0;
+            for (int i = 0; i < zodis.Length; i++)
+            {
+                suma += (int)zodis[i] * skaicius;
+            }
+            return suma;
         }
     }
 }
