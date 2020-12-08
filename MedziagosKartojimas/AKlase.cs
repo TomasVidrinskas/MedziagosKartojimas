@@ -36,14 +36,14 @@ namespace MedziagosKartojimas
             return a.ToString();
         }
 
-        private int RaideIKoda(int skaicius)
+        private int RaideIKoda(int sk)
         {
 
             var zodis = Name;
             int suma = 0;
             for (int i = 0; i < zodis.Length; i++)
             {
-                suma += (int)zodis[i] * skaicius;
+                suma += (int)zodis[i] * sk;
             }
             return suma;
         }

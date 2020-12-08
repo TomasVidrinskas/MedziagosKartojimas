@@ -8,6 +8,10 @@ namespace MedziagosKartojimas
 {
     public class CKlase : BKlase
     {
+        public CKlase()
+        {
+        }
+
         public CKlase(int skaicius)
         {
             Skaicius = skaicius;
